@@ -1,5 +1,5 @@
-# fluprint
-Code for applying Stabl &amp; MoFA to FluPRINT dataset
+# FluPRINT
+Code for applying Stabl &amp; MoFA to FluPRINT dataset.
 
 ## MOFA
 MOFA requires renaming of data to fit terminology. Donor ID is renamed to sample, data name to feature, assay to view, and data to value. Additionally, since MOFA does not take outcome into account during its analysis, outcome must be represented as a part of metadata, called group. 
